@@ -5,7 +5,7 @@
 ## makefile creating bin for CSFML project
 ##
 
-NAME	:=	my_rpg.exe
+NAME	:=	my_rpg
 
 LIBNAME	:=	libprint.a
 
@@ -53,7 +53,7 @@ CFLAGS	:=	-Wall -Wextra -I./include
 
 LDFLAGS		:=	-L. -lprint
 
-CC		:=	x86_64-w64-mingw32-gcc
+CC		:=	gcc
 
 all : $(NAME)
 
