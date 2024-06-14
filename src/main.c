@@ -55,7 +55,7 @@ int main(int ac, const char **av)
         if (ac == 2 && !my_strcmp(av[1], "-f"))
             flag = 1;
         if (ac == 2 && !my_strcmp(av[1], "-boss"))
-            flag = 2;
+            flag = 0;
         launcher(flag);
         return 0;
     }

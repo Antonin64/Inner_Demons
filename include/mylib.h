@@ -13,8 +13,6 @@
     #include <dirent.h>
     #include <stdlib.h>
     #include <unistd.h>
-    #include <pwd.h>
-    #include <grp.h>
     #include <time.h>
     #include <sys/types.h>
     #include <sys/stat.h>
